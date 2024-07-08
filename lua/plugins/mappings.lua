@@ -29,8 +29,9 @@ return {
           ["<Leader>t4v"] = { ":4ToggleTerm direction=horizontal name='[4]'<CR>", desc = "Toggle Terminal 4 vertical" },
           ["<Leader>t5v"] = { ":5ToggleTerm direction=horizontal name='[5]'<CR>", desc = "Toggle Terminal 5 vertical" },
 
-          ["<Leader>P"] = { name = "Preview" },
-          ["<Leader>Pm"] = { ":MarkdownPreview<CR>", desc = "Preview Markdown" },
+          ["<Leader>lm"] = { name = "Markdown" },
+          ["<Leader>lmt"] = { ":RenderMarkdownToggle<CR>", desc = "Toggle Markdown Rendering" },
+          ["<Leader>lmp"] = { ":MarkdownPreviewToggle<CR>", desc = "Start Markdown Preview" },
         },
         t = {
           -- setting a mapping to false will disable it
